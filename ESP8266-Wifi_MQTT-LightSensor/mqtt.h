@@ -1,7 +1,7 @@
 #include <PubSubClient.h>
 
 // MQTT Server
-IPAddress mqtt_server(192, 168, 60, 2);
+IPAddress mqtt_server(192, 168, 60, 1);
 
 PubSubClient mqtt(wifi);
 
